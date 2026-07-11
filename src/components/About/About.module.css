@@ -1,0 +1,56 @@
+.about {
+    background: var(--color-bg-alt);
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: var(--space-8);
+    align-items: start;
+}
+
+.paragraphs p {
+    color: var(--color-ink-soft);
+    margin-bottom: var(--space-4);
+    font-size: var(--fs-md);
+}
+
+.paragraphs p:last-child {margin-bottom: 0; }
+
+.highlights {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-4);
+}
+
+.highlightCard {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: var(--space-5);
+}
+
+.highlightLabel {
+    font-family: var(--font-mono);
+    font-size: var(--fs-xs);
+    color: var(--color-accent);
+    display: block;
+    margin-bottom: var(--space-2);
+}
+
+.highlightValue {
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    color: var(--color-ink);
+}
+
+@media (max-width: 860px) {
+    .grid { grid-template-columns: 1fr}
+}
+
+@media (max-width: 480px) {
+    .highlights { grid-template-columns: 1fr}
+}
+

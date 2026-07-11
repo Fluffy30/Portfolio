@@ -1,0 +1,114 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+body {
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-ink);
+    font-family: var(--font-body), serif;
+    font-size: var(--fs-base);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-display), serif;
+    color: var(--color-ink);
+    line-height: 1.15;
+    margin: 0;
+    font-weight: 600;
+}
+
+p { margin: 0; }
+
+ul { margin: 0; padding: 0; list-style: none; }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img { max-width: 100%; display: block; }
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+/* Accessible focus ring everywhere */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+    border-radius: 4px;
+}
+
+.container {
+    width: 100%;
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding: 0 var(--space-6);
+}
+
+@media (max-width: 640px) {
+    .container { padding: 0 var(--space-5); }
+}
+
+.section {
+    padding: var(--space-9) 0;
+}
+
+@media (max-width: 640px) {
+    .section { padding: var(--space-7) 0; }
+}
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    background: var(--color-ink);
+    color: #fff;
+    padding: var(--space-3) var(--space-5);
+    z-index: 1000;
+    border-radius: 0 0 var(--radius-sm) 0;
+    font-family: var(--font-mono), serif;
+    font-size: var(--fs-sm);
+}
+
+.skip-link:focus {
+    left: 0;
+}
+
+/* Simple scroll-reveal animation, respects reduced motion via the media query above */
+.reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+::selection {
+    background: var(--color-accent-soft);
+    color: var(--color-accent-strong);
+}

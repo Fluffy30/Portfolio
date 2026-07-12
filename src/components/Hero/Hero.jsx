@@ -37,7 +37,7 @@ export default function Hero() {
                             <span className={styles.terminalDot} />
                         </div>
                         <div className={styles.terminalLine}>
-                            <span className={styles.prompt}>$ </span>whoami
+                            <span className={styles.prompt}>$ </span>who am i
                         </div>
                         <div className={styles.terminalLine}>{profile.role.toLowerCase()}</div>
                         <div className={styles.terminalLine}>

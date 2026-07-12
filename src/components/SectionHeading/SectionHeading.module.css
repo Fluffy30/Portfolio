@@ -1,0 +1,27 @@
+.wrap {
+    margin-bottom: var(--space-7);
+    max-width: 640px;
+}
+
+.eyebrow {
+    display: block;
+    font-family: var(--font-mono), serif;
+    font-size: var(--fs-sm);
+    color: var(--color-accent);
+    margin-bottom: var(--space-3);
+    letter-spacing: 0.02em;
+}
+
+.title {
+    font-size: var(--fs-2xl);
+}
+
+.subtitle {
+    margin-top: var(--space-3);
+    color: var(--color-ink-soft);
+    font-size: var(--fs-md);
+}
+
+@media (max-width: 640px) {
+    .title { font-size: var(--fs-xl); }
+}

@@ -8,3 +8,10 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+node_modules
+dist
+.DS_Store
+.env
+.env.local
+*.log

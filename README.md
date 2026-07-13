@@ -1,6 +1,6 @@
 # Portfolio
 
-A fast, accessible, mobile-friendly personal portfolio built with React + Vite and plain CSS (CSS Modules) — no UI framework, no heavy dependencies.
+A fast, accessible, mobile-friendly personal portfolio built with React + Vite and plain CSS (CSS Modules) — no UI framework or no heavy dependencies.
 
 ## Sections
 

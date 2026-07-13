@@ -12,23 +12,29 @@ export const profile = {
         "I build reliable, well-tested software — from backend systems to the interfaces people actually touch.",
     intro:
         "Recent Computer Science graduate with a focus on backend engineering and distributed systems, plus hands-on experience shipping full-stack products. I like turning ambiguous problems into simple, working software.",
-    email: 'alex.morgan@example.com',
-    resumeUrl: '/resume.pdf', // Replace with your real PDF, see public/resume.pdf
+    email: 'jacobabuki@gmail.com',
+    resumeUrl: '/resume.pdf',
     availableForWork: true,
 }
 
 export const socials = [
-    { label: 'GitHub', href: 'https://github.com/yourusername', icon: 'github' },
-    { label: 'LinkedIn', href: 'https://linkedin.com/in/yourusername', icon: 'linkedin' },
-    { label: 'Email', href: 'mailto:alex.morgan@example.com', icon: 'mail' },
+    { label: 'GitHub', href: 'https://github.com/Fluffy30', icon: 'github' },
+    { label: 'LinkedIn', href: 'https://linkedin.com/in/jacob-brown-dev', icon: 'LinkedIn' },
+    { label: 'Email', href: 'mailto:jacobabuki@gmail.com', icon: 'mail' },
     { label: 'X / Twitter', href: 'https://x.com/yourusername', icon: 'x' },
 ]
 
 export const about = {
     paragraphs: [
-        "I graduated with a B.Sc. in Computer Science, where I focused on algorithms, distributed systems, and software engineering practices. Outside coursework, I spent most of my time building things: side projects, hackathon entries, and contributions to open source.",
-        "I care about writing code that's easy for the next person to read, testing it properly, and shipping in small, reversible steps. I'm comfortable across the stack, but backend systems and developer tooling are where I do my best work.",
-        "Right now I'm looking for a software engineering role where I can keep learning from senior engineers while contributing from day one.",
+        "I am a computer science student and junior software developer based in Kampala, Uganda, with hands-on experience building real-world projects using Java, Python, SQL, JavaScript, and web technologies. I focus on turning ideas into reliable software that improves how people access information, learn, and connect online.\n" +
+        "\n" +
+        "My portfolio includes a personal React-based portfolio site, a full-stack hospital website, an online church platform, and programming tutorials on my YouTube channel, CodeWise Tutor. These projects have strengthened my skills in backend development, web development, database design, and clear technical communication.\n" +
+        "\n" +
+        "I work daily with Git and GitHub, IntelliJ IDEA, NetBeans, Bash, and object-oriented programming principles. I am comfortable collaborating remotely with classmates and online teams, documenting my work, and learning new technologies like Spring Boot, Django, and modern cloud tools quickly.\n" +
+        "\n" +
+        "I am actively looking for internship, junior, and entry-level opportunities in software engineering, backend development, cloud engineering, and cybersecurity-related projects. My main interests are Java, Python, SQL, and building secure, scalable systems that solve practical problems.\n" +
+        "\n" +
+        "I am open to remote roles, internships, and freelance projects. If my profile matches what you’re looking for, I would be happy to share code samples, walk through my projects, and discuss how I can contribute to your team.",
     ],
     highlights: [
         { label: 'Education', value: 'B.Sc. Computer Science' },
@@ -107,30 +113,48 @@ export const projects = [
 export const timeline = [
     {
         id: 'exp-1',
-        type: 'work',
-        title: 'Software Engineering Intern',
-        org: 'Example Tech Co.',
-        period: 'Jun 2025 — Aug 2025',
+        type: 'Work',
+        title: 'Personal Profile',
+        org: 'Self-employed',
+        period: 'Jun 2026 — Jul 2026',
         description:
-            'Built and shipped two internal tools used by the data team; reduced a nightly batch job runtime by 40% by optimizing database queries.',
+        'Built a personal portfolio website using HTML, CSS, JavaScript, React, and GitHub Pages to showcase my projects and improve my online visibility.'
     },
     {
         id: 'exp-2',
-        type: 'education',
+        type: 'Education',
         title: 'B.Sc. Computer Science',
-        org: 'University Name',
-        period: '2022 — 2026',
+        org: 'ISBAT University',
+        period: '2025 — 2027',
         description:
             'Coursework in algorithms, operating systems, databases, and distributed systems. Teaching assistant for Intro to Data Structures.',
     },
     {
         id: 'exp-3',
-        type: 'work',
-        title: 'Freelance Web Developer',
-        org: 'Self-employed',
-        period: '2021 — 2022',
+        type: 'Education',
+        title: 'Hospital Website',
+        org: 'ISBAT University',
+        period: 'May 2026 — Jul 2026',
         description:
-            'Delivered small business websites end-to-end, from client requirements through deployment and handover.',
+        'Collaborated with course mates on a full-stack hospital website that helped patients quickly find information, build trust, and book services or contact the hospital more efficiently.'
+    },
+    {
+        id: 'exp-4',
+        type: 'Work',
+        title: 'Online Church Website',
+        org: 'Self-employed',
+        period: 'Jul 2026 — Aug 2026',
+        description:
+            'Developed an online church website that increased discoverability, strengthened member engagement, and supported 24/7 delivery of teaching and care at a low operational cost.'
+    },
+    {
+        id: 'exp-5',
+        type: 'Work',
+        title: 'YouTube Channel - CodeWise Tutor',
+        org: 'Self-employed',
+        period: '2026 — Now',
+        description:
+        'Created programming tutorials on my YouTube channel, CodeWise Tutor, to teach Java, Python, and other concepts, improving my ability to explain technical topics clearly.'
     },
 ]
 

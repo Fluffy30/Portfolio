@@ -26,14 +26,10 @@ export const socials = [
 
 export const about = {
     paragraphs: [
-        "I am a computer science student and junior software developer based in Kampala, Uganda, with hands-on experience building real-world projects using Java, Python, SQL, JavaScript, and web technologies. I focus on turning ideas into reliable software that improves how people access information, learn, and connect online.\n" +
-        "\n" +
-        "My portfolio includes a personal React-based portfolio site, a full-stack hospital website, an online church platform, and programming tutorials on my YouTube channel, CodeWise Tutor. These projects have strengthened my skills in backend development, web development, database design, and clear technical communication.\n" +
-        "\n" +
-        "I work daily with Git and GitHub, IntelliJ IDEA, NetBeans, Bash, and object-oriented programming principles. I am comfortable collaborating remotely with classmates and online teams, documenting my work, and learning new technologies like Spring Boot, Django, and modern cloud tools quickly.\n" +
-        "\n" +
-        "I am actively looking for internship, junior, and entry-level opportunities in software engineering, backend development, cloud engineering, and cybersecurity-related projects. My main interests are Java, Python, SQL, and building secure, scalable systems that solve practical problems.\n" +
-        "\n" +
+        "I am a computer science student and junior software developer based in Kampala, Uganda, with hands-on experience building real-world projects using Java, Python, SQL, JavaScript, and web technologies. I focus on turning ideas into reliable software that improves how people access information, learn, and connect online.",
+        "My portfolio includes a personal React-based portfolio site, a full-stack hospital website, an online church platform, and programming tutorials on my YouTube channel, CodeWise Tutor. These projects have strengthened my skills in backend development, web development, database design, and clear technical communication.",
+        "I work daily with Git and GitHub, IntelliJ IDEA, NetBeans, Bash, and object-oriented programming principles. I am comfortable collaborating remotely with classmates and online teams, documenting my work, and learning new technologies like Spring Boot, Django, and modern cloud tools quickly.",
+        "I am actively looking for internship, junior, and entry-level opportunities in software engineering, backend development, cloud engineering, and cybersecurity-related projects. My main interests are Java, Python, SQL, and building secure, scalable systems that solve practical problems.",
         "I am open to remote roles, internships, and freelance projects. If my profile matches what you’re looking for, I would be happy to share code samples, walk through my projects, and discuss how I can contribute to your team.",
     ],
     highlights: [

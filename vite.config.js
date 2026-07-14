@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react'
 // (username.github.io) or for Netlify/Vercel, leave base as '/'.
 export default defineConfig({
     plugins: [react()],
-    base: '/Portfolio',
+    base: '/Portfolio/',
     build: {
         outDir: 'dist',
         sourcemap: false
